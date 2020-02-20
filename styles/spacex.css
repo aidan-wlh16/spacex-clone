@@ -1,0 +1,152 @@
+body {
+    min-height: 300vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.headerbox {
+    width: 100%;
+    min-height: 11vh;
+    background: black;
+    display: flex;
+    position: sticky;
+    justify-content: space;
+    align-items: center;
+}
+
+.headerbox > ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    list-style: none;
+    width: 27%;
+    font-size: 15px;
+}
+
+.SpaceExLogo {
+    display: flex;
+    margin-left: 17%;
+}
+
+.secondlist{
+    color: grey;
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.rocketlaunch {
+    width: 100%;
+    height: 80vh;
+    z-index: 1
+}
+
+.seethrough {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 100%;
+    height: 16vh;
+    position: relative;
+    bottom: 122px;
+    z-index: 2;
+    opacity: 0.6;
+}
+
+.seethroughText {
+    display: flex;
+    text-align: left;
+    color: white;
+    font-size: 26px;
+    opacity: 1;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 11px 47px;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+.bottombox {
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 120px;
+    background: black;
+    width: 100%;
+    height: 9vh;
+    z-index: 3;
+    position: relative;
+}
+
+.Bboxes {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    color: white;
+    font-size: 12px;
+}
+
+.bottombox2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    background: aliceblue;
+    width: 100%;
+    height: 11vh;
+    position: relative;
+    bottom: 120px;
+    font-size: 20px;
+}
+
+.secondHalf {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background: aliceblue;
+    width: 100%;
+    height: 100vh;
+    bottom: 120px;
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 275px;
+    height: 250px;
+    background: azure;
+    box-shadow: 3px 3px 2px 0px grey;
+}
+
+.images {
+    display: flex;
+    position: relative;
+    width: 230px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.cardtext {
+    display: flex;
+    position: relative;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    color: black;
+    flex-wrap: wrap;
+}
